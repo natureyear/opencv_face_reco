@@ -9,16 +9,16 @@ This is a Python-based face recognition project that supports image and video re
 - imgs/ # Original images
 - train img/ # Training images
 - trainer/ # Model training folder
-- 1.read image.py
-- 2.grayscale conversion.py
-- 3.modify size.py
-- 4.draw rectangle.py
-- 5.face recongnition.py
-- 6.multi reco.py
-- 7.video reco.py
-- 8.face record.py
-- 9.data training.py
-- 10.face reco.py
+- 1.read_image.py
+- 2.grayscale_conversion.py
+- 3.modify_size.py
+- 4.draw_rectangle.py
+- 5.face_recongnition.py
+- 6.multi_reco.py
+- 7.video_reco.py
+- 8.face_record.py
+- 9.data_training.py
+- 10.face_reco.py
 ```
 
 ---
@@ -38,34 +38,34 @@ Run each .py file to try each function.
 2. You can also run individual scripts for testing specific functionalities:
 ```python
 # Read images
-python 1.read image.py
+python 1.read_image.py
 
 # Convert to grayscale
-python 2.grayscale conversion.py
+python 2.grayscale_conversion.py
 
 # Resize images
-python 3.modify size.py
+python 3.modify_size.py
 
 # Draw rectangles on faces
-python 4.draw rectangle.py
+python 4.draw_rectangle.py
 
 # Single face recognition
-python 5.face recongnition.py
+python 5.face_recongnition.py
 
 # Multi-face recognition
-python 6.multi reco.py
+python 6.multi_reco.py
 
 # Video face recognition
-python 7.video reco.py
+python 7.video_reco.py
 
 # Record face data
-python 8.face record.py
+python 8.face_record.py
 
 # Train face recognition model
-python 9.data training.py
+python 9.data_training.py
 
 # Real-time face recognition
-python 10.face reco.py
+python 10.face_reco.py
 ```
 ---
 
@@ -100,11 +100,11 @@ python 10.face reco.py
 ### Training and Testing
 1. Train the Model
 ```
-python 9.data training.py
+python 9.data_training.py
 ```
 2. Test Recognition
 ```
-python reco.py
+python 10.face_reco.py
 ```
 ---
 ## Notes
